@@ -50,18 +50,6 @@ public class PlayerController : MonoBehaviour
                Jump();
         }
 
-       // if (SwipeController.swipeDown)
-        //{
-          //  StartCoroutine(Slide());
-        //}
-
-        //if (controller.isGrounded)
-          //  animation.SetTrigger("isRunning");
-
-        //if (controller.isGrounded && !isSliding)
-          //  animation.SetBool("isRunning", true);
-        //else
-          // animation.SetBool("isRunning", false);
 
         Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
         if (lineToMove == 0)
